@@ -17,9 +17,9 @@ def fetch_posts():
         })
 
     return posts
-def save_to_file(posts):
-    with open("output.json", "w") as file:
-        json.dump(posts, file, indent=4)
+def save_to_file(posts): 
+    with open("output.json", "w") as file: # Open file in write mode
+        json.dump(posts, file, indent=4) 
 
 
 def main():
@@ -33,7 +33,7 @@ def main():
         print("-" * 30)
 
     save_to_file(posts)
-    print("\nData saved to output.json")
+    print("\nData saved to output.json") 
 
 
 main()

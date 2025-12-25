@@ -35,7 +35,7 @@ def save_to_json(data, filename="output.json"):
     Save processed data to a JSON file
     """
     try:# Improved file handling with exception management
-        with open(filename, "w") as file:
+        with open(filename, "w") as file: # Open file in write mode
             json.dump(data, file, indent=4)
         print(f"\nData successfully saved to {filename}")
 
