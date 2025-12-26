@@ -45,7 +45,7 @@
 ---
 
 ## Script Selected
-**Day-01 – System Health Monitoring Script**
+**Day-01 & Day-03 – System Health Monitoring Script**
 
 ---
 
