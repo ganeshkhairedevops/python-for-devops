@@ -1,0 +1,11 @@
+{
+    "EC2_Instances": [
+        {
+            "InstanceId": "i-0888dfd58e8afc99b",
+            "State": "running"
+        }
+    ],
+    "S3_Buckets": [
+        "ganeshkhaire"
+    ]
+}
