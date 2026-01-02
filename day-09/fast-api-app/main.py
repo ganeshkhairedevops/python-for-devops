@@ -1,5 +1,5 @@
 # Application Entry Point
-import uvicorn
+import uvicorn # Uvicorn is an ASGI server for running FastAPI applications
 
 # Run the FastAPI application with Uvicorn
 if __name__ == "__main__": 
