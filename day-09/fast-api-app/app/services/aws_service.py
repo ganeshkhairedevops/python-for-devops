@@ -1,6 +1,6 @@
 import boto3
 from botocore.exceptions import NoCredentialsError, ClientError
-
+# Service to interact with AWS resources
 def get_aws_resources():
     try:
         ec2 = boto3.client("ec2")

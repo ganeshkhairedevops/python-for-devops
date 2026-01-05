@@ -1,6 +1,6 @@
 from pathlib import Path
-
-LOG_FILE = Path(__file__).resolve().parents[2] / "app.log"
+# Service to analyze log files
+LOG_FILE = Path(__file__).resolve().parents[2] / "app.log" 
 
 def analyze_logs():
     counts = {"INFO": 0, "WARNING": 0, "ERROR": 0}

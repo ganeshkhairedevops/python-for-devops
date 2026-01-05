@@ -1,7 +1,7 @@
 import psutil
 import boto3
 from pathlib import Path
-
+# Service to check system, log, and AWS health
 LOG_FILE = Path(__file__).resolve().parents[2] / "app.log"
 
 def get_system_health():
